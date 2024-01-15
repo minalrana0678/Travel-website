@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    
+}
+body{
+    width: 90%;
+    margin: 0 auto;
+}
+:root{
+    --navigation-color:#424247;
+}
+
+
+
+/* header option start */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+}
+.hero_travel{
+color: #131318;
+font-size:2.2rem;
+font-weight: 800;
+}
+
+.Travel{
+color: #FF5400;
+font-size:2.2rem;
+font-weight: 800;
+}
+nav > ul{
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin-right: 1.6rem;
+}
+.different{
+color: #FF5400;
+font-size: 1.2rem;
+font-weight: 700;
+}
+nav li a {
+text-decoration: none;
+color: var(--Dark-02, #424247);
+font-size: 1.2rem;
+
+}
